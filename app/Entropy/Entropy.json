@@ -14,7 +14,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/30/2022 06:55:05",
+  "HeaderLastSavedDateTimeUTC": "11/30/2022 06:58:22",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "17b97179-07de-4ef7-887d-42ab4de85bdc": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-1faea72a-9ed9-429f-a954-af4a364eb6bd\"",
@@ -62,14 +62,14 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 1,
-    "dropdown": 2,
+    "button": 2,
+    "dropdown": 1,
     "text": 0
   },
   "PublishOrderIndices": {
     "App": 0,
     "btnAssigned": 5,
-    "Button1": 0,
+    "Button1": 6,
     "ddlAssigned": 3,
     "ddlNotificationOn": 4,
     "hdnEmailId": 0,
