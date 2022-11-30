@@ -13,13 +13,13 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/30/2022 05:26:15",
+  "HeaderLastSavedDateTimeUTC": "11/30/2022 06:54:24",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "17b97179-07de-4ef7-887d-42ab4de85bdc": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-31ab23ae-b615-456b-be47-22cb705aaebb\"",
-    "18dd41e4-59fc-461e-953b-7bcb9b2c68dd": "\"/providers/microsoft.powerapps/apis/shared_teams/connections/shared-teams-0a9a12f0-85a1-406a-8b1a-77b4a9720d3e\"",
-    "73faaec2-a667-4d03-9ac9-f85885ff62fe": "\"/providers/microsoft.powerapps/apis/shared_trello/connections/shared-trello-6d11bac0-7aa0-49ff-9381-e9012ddd7447\"",
-    "77160614-3981-44e5-b7bd-d803a24aad4d": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/11ed58a07ccf461eafa4c19b38b2c242-bc56bdce0be9570f\""
+    "17b97179-07de-4ef7-887d-42ab4de85bdc": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-1faea72a-9ed9-429f-a954-af4a364eb6bd\"",
+    "18dd41e4-59fc-461e-953b-7bcb9b2c68dd": "\"/providers/microsoft.powerapps/apis/shared_teams/connections/6f1fb1d6e4924ca3a1dbb40459c83cc3\"",
+    "73faaec2-a667-4d03-9ac9-f85885ff62fe": "\"/providers/microsoft.powerapps/apis/shared_trello/connections/0c16ef86a3db4cc384a4077fb5212de5\"",
+    "77160614-3981-44e5-b7bd-d803a24aad4d": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/c9efe8f906ee46e79cff2753585de7a3\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -79,14 +79,14 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2286213,
+    "AnalysisLoadTime": 0.2530499,
     "ControlCount": {
       "button": 1,
       "dropdown": 2,
       "screen": 1,
       "text": 3
     },
-    "DeserializationLoadTime": 2.2756193,
+    "DeserializationLoadTime": 2.0129146,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": false
