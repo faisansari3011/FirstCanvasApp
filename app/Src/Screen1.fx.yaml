@@ -42,7 +42,8 @@ Screen1 As screen:
         ZIndex: =6
 
     Button1 As button:
-        Text: ="View Task"
+        Text: ="View Assignment"
+        Width: =177
         X: =618
         Y: =473
         ZIndex: =7
