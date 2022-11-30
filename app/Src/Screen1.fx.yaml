@@ -42,7 +42,7 @@ Screen1 As screen:
         ZIndex: =6
 
     Button1 As button:
-        Text: ="Demo"
+        Text: ="Reset"
         X: =618
         Y: =473
         ZIndex: =7
