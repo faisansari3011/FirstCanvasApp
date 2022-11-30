@@ -1,0 +1,117 @@
+{
+  "17b97179-07de-4ef7-887d-42ab4de85bdc": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1599/1.0.1599.3017/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "77160614-3981-44e5-b7bd-d803a24aad4d"
+    ],
+    "id": "17b97179-07de-4ef7-887d-42ab4de85bdc"
+  },
+  "18dd41e4-59fc-461e-953b-7bcb9b2c68dd": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Microsoft Teams",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1608/1.0.1608.3079/teams/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_teams",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "77160614-3981-44e5-b7bd-d803a24aad4d"
+    ],
+    "id": "18dd41e4-59fc-461e-953b-7bcb9b2c68dd"
+  },
+  "73faaec2-a667-4d03-9ac9-f85885ff62fe": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Trello",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1586/1.0.1586.2912/trello/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_trello",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "77160614-3981-44e5-b7bd-d803a24aad4d"
+    ],
+    "id": "73faaec2-a667-4d03-9ac9-f85885ff62fe"
+  },
+  "77160614-3981-44e5-b7bd-d803a24aad4d": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-85.westus.logic.azure.com:443/workflows/243bb6611c9446d0b4880293b031d31f/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=_BZCaSYzggfTKcsqfxp_sYr76pBgqkIUmw3SlgZnBW4",
+      "workflowEndpoint": "/subscriptions/e9bc7b8d-bb95-4e7a-baf8-230462d93177/resourceGroups/911622ac526a46db8894a09fbcf01139-78d0e2422ec2417b8f5855fcb904735e/providers/Microsoft.Logic/workflows/11ed58a0-7ccf-461e-afa4-c19b38b2c242",
+      "workflowName": "11ed58a0-7ccf-461e-afa4-c19b38b2c242",
+      "workflowPath": "/subscriptions/e9bc7b8d-bb95-4e7a-baf8-230462d93177/resourceGroups/911622ac526a46db8894a09fbcf01139-78d0e2422ec2417b8f5855fcb904735e/providers/Microsoft.Logic/workflows/11ed58a0-7ccf-461e-afa4-c19b38b2c242"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "17b97179-07de-4ef7-887d-42ab4de85bdc": {
+          "value": "shared_office365"
+        },
+        "18dd41e4-59fc-461e-953b-7bcb9b2c68dd": {
+          "value": "shared_teams"
+        },
+        "73faaec2-a667-4d03-9ac9-f85885ff62fe": {
+          "value": "shared_trello"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "11ed58a0-7ccf-461e-afa4-c19b38b2c242"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365": {
+          "value": "17b97179-07de-4ef7-887d-42ab4de85bdc"
+        },
+        "shared_teams": {
+          "value": "18dd41e4-59fc-461e-953b-7bcb9b2c68dd"
+        },
+        "shared_trello": {
+          "value": "73faaec2-a667-4d03-9ac9-f85885ff62fe"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "11ed58a0-7ccf-461e-afa4-c19b38b2c242"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Task_Assignment_Flow"
+    ],
+    "dependencies": {
+      "shared_office365": "17b97179-07de-4ef7-887d-42ab4de85bdc",
+      "shared_teams": "18dd41e4-59fc-461e-953b-7bcb9b2c68dd",
+      "shared_trello": "73faaec2-a667-4d03-9ac9-f85885ff62fe"
+    },
+    "dependents": [],
+    "id": "77160614-3981-44e5-b7bd-d803a24aad4d"
+  }
+}

@@ -1,0 +1,43 @@
+Screen1 As screen:
+
+    TaskName As text:
+        Default: =""
+        HintText: ="Provide Task Name"
+        X: =420
+        Y: =192
+        ZIndex: =1
+
+    TaskDescription As text:
+        Default: =""
+        HintText: ="Provide Task Description"
+        X: =420
+        Y: =257
+        ZIndex: =2
+
+    ddlAssigned As dropdown:
+        Items: |-
+            =Filter(Users, !IsBlank('First Name') || ('First Name') <> "#")
+        X: =420
+        Y: =326
+        ZIndex: =3
+
+    hdnEmailId As text:
+        Default: =ddlAssigned.Selected.'Primary Email'
+        Visible: =false
+        X: =1046
+        Y: =76
+        ZIndex: =4
+
+    btnAssigned As button:
+        OnSelect: =Task_Assignment_Flow.Run(TaskName.Text, TaskDescription.Text, hdnEmailId.Text, ddlAssigned.Selected.'First Name', ddlNotificationOn.Selected.Value)
+        Text: ="Assigned"
+        X: =420
+        Y: =473
+        ZIndex: =5
+
+    ddlNotificationOn As dropdown:
+        Items: =collNotificationOn
+        X: =420
+        Y: =399
+        ZIndex: =6
+
