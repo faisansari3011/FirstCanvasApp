@@ -4,6 +4,7 @@
   "ControlUniqueIds": {
     "App": 1,
     "btnAssigned": 9,
+    "Button1": 10,
     "ddlAssigned": 7,
     "ddlNotificationOn": 8,
     "hdnEmailId": 4,
@@ -13,7 +14,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/30/2022 06:54:24",
+  "HeaderLastSavedDateTimeUTC": "11/30/2022 06:55:01",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "17b97179-07de-4ef7-887d-42ab4de85bdc": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-1faea72a-9ed9-429f-a954-af4a364eb6bd\"",
@@ -61,13 +62,14 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 2,
-    "dropdown": 1,
+    "button": 1,
+    "dropdown": 2,
     "text": 0
   },
   "PublishOrderIndices": {
     "App": 0,
     "btnAssigned": 5,
+    "Button1": 0,
     "ddlAssigned": 3,
     "ddlNotificationOn": 4,
     "hdnEmailId": 0,

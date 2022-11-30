@@ -41,3 +41,9 @@ Screen1 As screen:
         Y: =399
         ZIndex: =6
 
+    Button1 As button:
+        Text: ="Demo"
+        X: =618
+        Y: =473
+        ZIndex: =7
+
